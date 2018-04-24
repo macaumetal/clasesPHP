@@ -1,0 +1,14 @@
+
+* {
+	box-sizing: border-box;
+}
+body {
+	width: 970px;
+	margin: 0px auto;
+}
+
+
+h2 {
+	background-color: red;
+}
+
