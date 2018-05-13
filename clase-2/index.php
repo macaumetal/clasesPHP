@@ -6,9 +6,10 @@
 </head>
 <body>
 	
-<p>
+
 	<h2>Ejercicio 1</h2>
-		<?php
+<div>		
+	<?php
 
 		$numero1 = 10;
 		$numero2 = 20;
@@ -20,10 +21,11 @@
 		}
 
 		?>
-</p>
-<p>
+</div>
+
 	<h2>Ejercicio 2</h2>
-		<?php
+<div>		
+	<?php
 
 		$random = rand(1,5);
 
@@ -32,10 +34,11 @@
 		}
 		?>
 
-</p>
-<p>
+</div>
+
 	<h2>Ejercicio 3</h2>
-		<?php
+<div>		
+	<?php
 
 		$random = rand(1,5);
 
@@ -43,10 +46,11 @@
 			echo $random;
 		}
 		?>	
-</p>
-<p>
+</div>
+
 	<h2>Ejercicio 4</h2>
-		<?php
+<div>		
+	<?php
 
 		$random = rand(1,100);
 		
@@ -63,10 +67,11 @@
 		}
 
 		?>	
-</p>
-<p>
+</div>
+
 	<h2>Ejercicio 5</h2>
-		<?php
+<div>		
+	<?php
 
 		$nombreDeUsuario = "gus";
 		$claveDeUsuario = "1234";
@@ -86,9 +91,10 @@
 			
 
 		?>	
-</p>
-<p>
+</div>
+
 	<h2>Ejercicio 6</h2>
+<div>	
 	<?php
 	$edad = 10;
 	$casado = false;
@@ -106,9 +112,34 @@
 
 
 ?>
-</p>
-<p>
+</div>
+
+	<h2>Ejercicio 7</h2>
+<div>	
+	<?php
+	$cantidadDeAlumnos = 0;
+	
+	if ($cantidadDeAlumnos) {
+		echo "true";
+	}else{
+		echo "false";
+	}
+?>	
+
+	<h2>Ejercicio 8</h2>
+<div>	
+	<?php
+	if ($i = 0) {
+		echo "true";
+	}else{
+		echo "false";
+	}
+
+?>
+</div>
+
 	<h2>Ejercicio 9</h2>
+<div>	
 	<?php
 	$numero = 51;
 	$par = "El número es par";
@@ -120,11 +151,12 @@
 
 
 ?>
-</p>
+</div>
 
-<p>
+
 	<h2>Ejercicio 10</h2>
-	<?php
+<div>
+		<?php
 	
 	$nombre = "Gus";
 
@@ -152,10 +184,11 @@
 
 
 ?>
-</p>
+</div>
 
-<p>
+
 	<h2>Ejercicio 11</h2>
+<div>	
 	<?php
 	
 	$colorRemera = "Verde";
@@ -172,8 +205,19 @@
 			break;
 	}
 ?>
-</p>
+</div>
+<h2>Ejercicio random</h2>
+<div>		
+	<?php
 
+		$random = rand(1,100);
+		$n = 
+		
+		
+		
+
+	?>	
+</div>
 </body>
 </html>
 
